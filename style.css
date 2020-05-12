@@ -1,0 +1,48 @@
+h2 {
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-top: 10px;	
+	color: white;
+	font-size: 2.5em;
+	text-shadow: 2px 2px #c8a2c8;
+	letter-spacing: 4px;
+}
+body {
+	background: linear-gradient(90deg, #00d2d3,  #1dd1a1); 
+}
+.grid-container {
+	background-color: #e0f9f3 ;
+	height: 100%;
+	padding-top: 20px
+}
+.grid-area {
+	height:640px !important;
+	width:640px !important;
+	margin: 0 auto;
+	background-color: white;
+	overflow:hidden;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+}
+.grid-area div {
+	height:80;
+	width:80px;
+	margin: 0;
+	padding:0;
+	align-self: auto;
+	background-color:red;
+	border:1px solid blue;
+	vertical-align: none;
+}
+.grid-area div:hover {
+	background-color: black
+}
+.footer p {
+	color: #c5ded8;
+}
+.footer p a {
+	color: addbd0;
+}
