@@ -27,17 +27,19 @@ body {
 	align-content: flex-start;
 
 }
-.grid-area div {
-	height:80;
-	width:80px;
+.gridBlock {
+	height:160px;
+	width:160px;
 	margin: 0;
 	padding:0;
+	background-color: white;
 	align-self: auto;
-	background-color:red;
-	border:1px solid blue;
+	border:0.5px solid #c9c9c9;
+	border-style: ridge;
+
 	vertical-align: none;
 }
-.grid-area div:hover {
+.gridBlock:hover {
 	background-color: black
 }
 .footer p {
