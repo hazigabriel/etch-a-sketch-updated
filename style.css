@@ -17,8 +17,8 @@ body {
 	padding-top: 20px
 }
 .grid-area {
-	height:640px !important;
-	width:640px !important;
+	height:640px ;
+	width:640px ;
 	margin: 0 auto;
 	background-color: white;
 	overflow:hidden;
@@ -36,15 +36,13 @@ body {
 	align-self: auto;
 	border:0.5px solid #c9c9c9;
 	border-style: ridge;
-
+	opacity: 1;
 	vertical-align: none;
 }
-.gridBlock:hover {
-	background-color: black
-}
+ 
 .footer p {
 	color: #c5ded8;
 }
 .footer p a {
-	color: addbd0;
+	color: #addbd0;
 }
